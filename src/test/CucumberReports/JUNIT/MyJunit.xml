@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.035148">
-<testcase classname="google searches" name="search apple products from the google" time="0.035148">
-<system-out><![CDATA[Given chrome browser........................................................passed
-When go to website google...................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.977355">
+<testcase classname="google searches" name="search apple products from the google" time="12.977355">
+<system-out><![CDATA[When go to website google...................................................passed
 Then webpage titile contains google.........................................passed
 And user enters apple products name and click Enter.........................passed
 * title changes.............................................................passed
-Then print Hello............................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

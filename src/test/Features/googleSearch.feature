@@ -5,12 +5,11 @@ Feature: google searches
   Scenario: search apple products from the google
     # scenario is a test case
 
-      Given chrome browser
       When  go to website google
       Then  webpage titile contains google
       And   user enters apple products name and click Enter
       *   title changes
-      Then print Hello
+
 
     # only When, Given, Then  have cucumber annotations.
       #   And, But, *   does not have cucumber annotations when they are implemented, they will

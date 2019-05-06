@@ -3,9 +3,7 @@ Feature: google searches
 
   @UserStory01
   Scenario: search apple products from the google       [90m# src/test/Features/googleSearch.feature:5[0m
-    [32mGiven [0m[32mchrome browser[0m                                [90m# GoogleSearchSteps.chrome_browser()[0m
     [32mWhen [0m[32mgo to website google[0m                           [90m# GoogleSearchSteps.go_to_website_google()[0m
     [32mThen [0m[32mwebpage titile contains google[0m                 [90m# GoogleSearchSteps.webpage_titile_contains_google()[0m
     [32mAnd [0m[32muser enters apple products name and click Enter[0m [90m# GoogleSearchSteps.user_enters_apple_products_name_and_click_Enter()[0m
     [32m* [0m[32mtitle changes[0m                                     [90m# GoogleSearchSteps.title_changes()[0m
-    [32mThen [0m[32mprint Hello[0m                                    [90m# GoogleSearchSteps.print_Hello()[0m

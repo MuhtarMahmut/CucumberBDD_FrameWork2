@@ -19,14 +19,10 @@ formatter.scenario({
     }
   ]
 });
-formatter.step({
-  "name": "chrome browser",
-  "keyword": "Given "
+formatter.before({
+  "status": "passed"
 });
-formatter.match({
-  "location": "GoogleSearchSteps.chrome_browser()"
-});
-formatter.result({
+formatter.before({
   "status": "passed"
 });
 formatter.step({
@@ -69,14 +65,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.step({
-  "name": "print Hello",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GoogleSearchSteps.print_Hello()"
-});
-formatter.result({
+formatter.after({
   "status": "passed"
 });
 });
